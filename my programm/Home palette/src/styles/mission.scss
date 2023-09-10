@@ -1,0 +1,10 @@
+.mission{
+  text-align: center;
+  &__title{
+    @include text(400,12px,14px,#3C3C3C);
+  }
+  &__desc{
+    @include text(400,38px,46px,#1F1E1E);
+    padding: 15px 0 100px;
+  }
+}

@@ -1,0 +1,11 @@
+.try {
+  padding-bottom: 230px;
+}
+.try__row {
+  display: flex;
+}
+.try__left {
+  background-color: #F4EDE6;
+  margin-right: 8px;
+  padding: 140px 108px;
+}

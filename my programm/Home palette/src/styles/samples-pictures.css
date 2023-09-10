@@ -1,0 +1,15 @@
+.samples-pictures__title {
+  text-align: center;
+  padding: 50px 0 70px;
+}
+.samples-pictures__images {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  row-gap: 15px;
+}
+.samples-pictures__images-img {
+  width: 265px;
+  height: 255px;
+  border-radius: 20%;
+}

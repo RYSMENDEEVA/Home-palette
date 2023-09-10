@@ -1,0 +1,27 @@
+.purifies{
+  padding-bottom: 35px;
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__left{
+    margin-right: 8px;
+  }
+  &__right{
+    background: #F4EDE6;
+    border-radius: 8px;
+  }
+  &__img{
+    width: 690px;
+  }
+  &__text{
+    @include text(400,45px,58px, #425E44);
+    text-align: center;
+    padding: 150px 166px 157px;
+  }
+  &__desc{
+    @include text(400,12px,14px, #425E44);
+    text-align: center;
+    padding-bottom: 50px;
+  }
+}

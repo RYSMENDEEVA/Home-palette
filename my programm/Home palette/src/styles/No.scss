@@ -1,0 +1,18 @@
+.NO{
+  text-align: center;
+  padding-bottom: 50px;
+  &__title{
+    @include text(400,192px,201px,#1F1E1E);
+  }
+  &__desc{
+    @include text(400,21px,29px,#1F1E1E);
+    padding: 25px 0 40px;
+    }
+  &__btn{
+    @include text(400,12px,9px,#fff);
+    padding: 15px 27px 12px;
+    background: #1F1E1E;
+    border: none;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,30 @@
+.try{
+  padding-bottom: 230px;
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__left{
+    background-color:  #F4EDE6;
+    text-align: center;
+    margin-right: 8px;
+    padding: 139px 188px 138px;
+  }
+  &__img{
+    width: 690px;
+  }
+  &__desc{
+    @include text(400,46px,50px,#1E1E1E);
+    padding-bottom: 28px;
+    text-align: center;
+  }
+  &__btn{
+    @include text(400,12px,9px,#fff);
+    text-transform: uppercase;
+    background: #1F1E1E;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 26px 12px;
+    cursor: pointer;
+  }
+}

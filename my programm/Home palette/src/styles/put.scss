@@ -1,0 +1,42 @@
+.put{
+  //padding-bottom: 66px;
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__left{
+    margin-right: 8px;
+  }
+  &__left2-img{
+    width: 690px;
+    border-radius: 5px;
+  }
+  &__img1, &__img2{
+    display: flex;
+    column-gap: 8px;
+    padding-bottom: 8px;
+
+  }
+  &__images{
+    width: 339px;
+    border-radius: 5px;
+  }
+  &__right{
+    text-align: center;
+    padding: 157px 144px 50px;
+    margin-bottom: 8px;
+    background: #C6BC8A;
+    border-radius: 5px;
+  }
+  &__desc{
+    @include text(400,52px,58px, #425E44);
+  }
+  &__account{
+    @include text(400,20px,21px,#425E44);
+    padding: 25px 0 163px;
+  }
+  &__text{
+    @include text(400,12px,14px,#425E44);
+  }
+
+}

@@ -1,0 +1,9 @@
+.purifies__card {
+  display: flex;
+}
+.purifies__desc {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

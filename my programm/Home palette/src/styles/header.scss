@@ -1,0 +1,41 @@
+.header{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+
+  &--white{
+    color: white;
+  }
+  &--black{
+    color: black;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #1F1E1E;
+  }
+  &__title{
+    >a{
+      color: inherit;
+      >h1{
+        @include text(400,35px,15px,inherit);
+        letter-spacing: 4px;
+      }
+    }
+  }
+ &__menu{
+   display: flex;
+   column-gap: 18px;
+ }
+  &__menu-end{
+    display: flex;
+    column-gap: 18px;
+  }
+  &__link{
+    @include text(400,16px,12px,inherit);
+  }
+}

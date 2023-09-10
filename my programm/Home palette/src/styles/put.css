@@ -1,0 +1,13 @@
+.put {
+  padding-bottom: 66px;
+}
+.put__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.put__left {
+  margin-right: 8px;
+}
+.put__right {
+  background: #C6BC8A;
+}

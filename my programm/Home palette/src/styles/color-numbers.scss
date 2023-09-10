@@ -1,0 +1,19 @@
+.color-numbers{
+  padding: 60px 0 40px;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__desc{
+    @include text(400,15px,15px,#1C210B);
+    display: flex;
+  }
+  &__number{
+   @include text(400,21px,28px,#1C210B);
+   display: flex;
+  }
+  &__one{
+    display: flex;
+    column-gap: 18px;
+  }
+}

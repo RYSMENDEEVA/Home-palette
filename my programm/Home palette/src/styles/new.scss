@@ -1,0 +1,43 @@
+.new{
+  padding: 40px 0 30px 0;
+  &__title{
+    @include text(400,125px,131px,#1F1E1E);
+    text-align: center;
+    padding: 0 0 80px;
+  }
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 56px;
+  }
+
+  &__card-img{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+  }
+  &__desc, &__price{
+    @include text(400,12px,9px,#3C3C3C);
+    text-align: center;
+  }
+  &__desc{
+    padding: 20px 0 10px;
+  }
+  &__price{
+    padding-bottom: 37px;
+  }
+  &__btn-in{
+    @include text(400,12px,9px,#fff);
+    background: #1F1E1E;
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+  }
+  &__btn{
+    display: flex;
+    justify-content: center;
+    padding: 45px 0 0;
+  }
+}
